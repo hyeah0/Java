@@ -29,10 +29,10 @@
         System.out.println("sum="+sum);
 
         str.charAt(0) = 1 <- "12345" 에서 idx 0 번 문자
-        str.charAt(1) = 2 <- "12345" 에서 idx 0 번 문자
-        str.charAt(2) = 3 <- "12345" 에서 idx 0 번 문자
-        str.charAt(3) = 4 <- "12345" 에서 idx 0 번 문자
-        str.charAt(4) = 5 <- "12345" 에서 idx 0 번 문자
+        str.charAt(1) = 2 <- "12345" 에서 idx 1 번 문자
+        str.charAt(2) = 3 <- "12345" 에서 idx 2 번 문자
+        str.charAt(3) = 4 <- "12345" 에서 idx 3 번 문자
+        str.charAt(4) = 5 <- "12345" 에서 idx 4 번 문자
 
         str.charAt(0) - '0' = 1
         설명 1 "12345" 에서 idx 0 번 문자 1의 문자코드 49 - 0 문자코드 48을 뺀 값 = 1
