@@ -49,3 +49,16 @@
 | 2    | 50       |
 | 3    | 51       |
 | 4    | 52       |
+
+#### 4-8 Math.random() 활용
+
+1.  Math.random() 값은 0.123455677 랜덤 실수로 나타난다.
+2.  실수를 정수로 나타내고 싶을때
+    int value =(int) (Math.random);
+    (정수를 실수로 나타내고 싶을때는 따로 설정 안해도 된다.)
+    double value = 1;
+3.  랜덤한 숫자를 a~c 사이의 값을 받고 싶을 경우 랜덤 값에 c 값을 곱하고 +1을 한다 (+1을 안할경우 c -1 값 까지 랜덤 수가 나온다.)
+    (Math.random() \* c) + 1
+
+    System.out.println("Math.random()을 이용하여 1부터 6사이의 임의의 정수를 변수 value에 저장하는 코드를 완성하라");
+    int value =(int) (Math.random()\*6)+1;
