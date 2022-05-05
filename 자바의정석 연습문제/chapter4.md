@@ -108,11 +108,11 @@
     사용자가 값을 입력하면, 컴퓨터는 자 신이 생각한 값과 비교해서 결과를 알려준다.
     사용자가 컴퓨터가 생각한 숫자를 맞추면 게임이 끝나고 몇 번 만에 숫자를 맞췄는지 알려준다.
 
-    package d4_practiceTests;
+        package d4_practiceTests;
 
-    1번 방법 import java.util.Scanner;
+        1번 방법 import java.util.Scanner;
 
-    public class Ex10 {
+        public class Ex10 {
 
          public static void main(String[] args) {
 
