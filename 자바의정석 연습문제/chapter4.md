@@ -87,3 +87,62 @@
     	}
     	System.out.println(sum);
 
+#### 4-10 작성값 입력하기
+
+1.  import java.util.Scanner;
+
+    import java.util.Scanner;
+    Scanner scanner = new Scanner(System.in);
+    String tmp = scanner.nextLine();
+    int inputNum = Integer.parseInt(tmp);
+
+2.  java.util.Scanner s = new java.util.Scanner(System.in);
+
+    java.util.Scanner s = new java.util.Scanner(System.in);
+    inputNum = s.nextInt();
+
+    > 예시
+
+    [4-10] 다음은 숫자맞추기 게임을 작성한 것이다.
+    1과 100사이의 값을 반복적으로 입력 해서 컴퓨터가 생각한 값을 맞추면 게임이 끝난다.
+    사용자가 값을 입력하면, 컴퓨터는 자 신이 생각한 값과 비교해서 결과를 알려준다.
+    사용자가 컴퓨터가 생각한 숫자를 맞추면 게임이 끝나고 몇 번 만에 숫자를 맞췄는지 알려준다.
+
+    package d4_practiceTests;
+
+    1번 방법 import java.util.Scanner;
+
+    public class Ex10 {
+
+         public static void main(String[] args) {
+
+             int randomNum = (int)(Math.random()*100)+1;
+             System.out.println(randomNum);
+             int count = 0;
+             int inputNum = 0;
+
+             while(true){
+             System.out.print("1에서 100까지 랜덤한 숫자를 입력하세요 > ");
+
+             1번 방법 Scanner scanner = new Scanner(System.in);
+             1번 방법 String tmp = scanner.nextLine();
+             1번 방법 int inputNum = Integer.parseInt(tmp);
+
+             2번 방법 java.util.Scanner s = new java.util.Scanner(System.in);
+             2번 방법 inputNum = s.nextInt();
+             count++;
+             if(inputNum > randomNum) {
+             System.out.println("정답이 아닙니다 더 작은 수를 입력하세요");
+             }
+             else if(inputNum < randomNum) {
+             System.out.println("정답이 아닙니다 더 큰 수를 입력하세요");
+             }
+             else {
+             System.out.println("정답입니다");
+             System.out.println("정답을 " + count + "번 만에 맞추셨습니다.");
+             break;
+             }
+             }
+         }
+
+    }
