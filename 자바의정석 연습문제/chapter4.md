@@ -65,3 +65,25 @@
 
         System.out.println("Math.random()을 이용하여 1부터 6사이의 임의의 정수를 변수 value에 저장하는 코드를 완성하라");
         int value =(int) (Math.random()\*6)+1;
+
+#### 4-9 % , / 활용
+
+    int타입의 변수 num 이 있을 때, 각 자리의 합을 더한 결과를 출력하는 코드를 완 성하라.
+    만일 변수 num의 값이 12345라면, ‘1+2+3+4+5’의 결과인 15를 출력하라.
+
+    int num = 12345;
+
+    num%10 = num을 10으로 나눈 나머지값
+    num/10 = num을 10으로 나눈 값
+
+    int num = 12345;
+    	int sum = 0;
+
+    	while(num>0) {
+    		sum += num%10;
+    		num /= 10; //num을 10으로 나눈다
+    		System.out.println(num);
+
+    	}
+    	System.out.println(sum);
+
