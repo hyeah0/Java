@@ -10,9 +10,9 @@
 
 - 타입[] 변수이름;
 
-  예시)
-  int[] score;
-  String[] naem;
+        예시)
+        int[] score;
+        String[] naem;
 
 - 타입 변수이름[];
 
@@ -25,15 +25,15 @@
 - 타입[] 변수이름;
   변수이름 = new 타입[길이];
 
-              예시)
-              int[] score;
-              score = new int[5];
+        예시)
+        int[] score;
+        score = new int[5];
 
 - 타입[] 변수이름 = new 타입[길이]
 
-            예시)
-            int[] score = new int[5]
-            배열선언과 동시에 길이가 5인 int 배열
+        예시)
+        int[] score = new int[5]
+        배열선언과 동시에 길이가 5인 int 배열
 
 ### 3. 배열의 인덱스
 
