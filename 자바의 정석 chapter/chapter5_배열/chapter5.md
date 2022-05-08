@@ -88,3 +88,43 @@
 
     	String[] stArr = {"사과","오렌지","포도","키위"};
     	System.out.println(stArr); -->[Ljava.lang.String;@1c655221
+
+### 8. 배열의 활용(1)
+
+총합과 평균
+
+평균 구할시 float 타입으로 구하기
+
+        float average = 0f;
+        int[] score = {100,88,100,100,90};
+
+        for(int i=0; i<score.length; i++) {
+        sum += score[i];
+        }
+
+        average = (float)sum/score.length;
+
+### 9. 배열의 활용(2)
+
+최소값 최대값 구하기
+
+필요값
+
+1.  배열
+2.  최대값
+3.  최소값
+
+        int[] score = {79, 88, 91, 33, 100, 55, 95 };
+        int max = score[0];
+        int min = score[0];
+
+        for(int i=1; i<score.length; i++) {
+        	if(score[i]>max) {
+        		max = score[i];
+        	}
+        	else if(score[i]<min) {
+        		min = score[i];
+        	}
+        }
+        System.out.println("max : " + max);
+        System.out.println("min : " + min);
