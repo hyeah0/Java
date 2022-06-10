@@ -114,7 +114,7 @@
 - 추상클래스 상속받고, 인터페이스를 구현한 자손 클래스
 
   - 오버라이딩 : 상속받은 메서드 수정
-    조상(public) 보다 접근제어자 범위가 좁으면 안된다.
+  - 오버라이딩 : 조상(public) 보다 접근제어자 범위가 좁으면 안된다.
 
           class Fighter extends Unit implements Fightable{
 
