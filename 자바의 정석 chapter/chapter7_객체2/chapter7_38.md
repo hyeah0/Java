@@ -18,7 +18,7 @@
             public abstract void attack(Fightable f); //public abstract 생략가능
         }
 
-        class Fighter extends Unit implements Fightable{ //Unit 추상클래스 상속, Fightable 인터페이스 구
+        class Fighter extends Unit implements Fightable{ //Unit 추상클래스 상속, Fightable 인터페이스 구현
             // 오버라이딩 : 상속받은 메서드 수정
             // 오버라이딩 : 조상(public) 보다 접근제어자 범위가 좁으면 안된다.
 
@@ -64,7 +64,7 @@
 
                     Unit u = new Fighter();
                     u.move(120, 220);
-        //			u.attack(u); // unit 추상클래스에는 attack 메서드가 없어 사용 불가
+        //	    u.attack(u); // unit 추상클래스에는 attack 메서드가 없어 사용 불가
                     System.out.println("u.toString() : " + u.toString());
                     u.stop();
 
@@ -76,7 +76,7 @@
                     fa.move(300, 320);
                     fa.attack(fa);
                     System.out.println("fa.toString() : " + fa.toString());
-        //			fa.stop(); // Fightable 인스턴스에는 stop메서드가 없어 사용 불가
+        //	    fa.stop(); // Fightable 인스턴스에는 stop메서드가 없어 사용 불가
 
                     System.out.println("");
 
