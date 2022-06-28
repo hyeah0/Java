@@ -55,7 +55,5 @@
                 for(int i=0; i<deck.cards.length; i++) {
                     System.out.print(deck.cards[i] + " , ");
                 }
-
             }
-
         }
