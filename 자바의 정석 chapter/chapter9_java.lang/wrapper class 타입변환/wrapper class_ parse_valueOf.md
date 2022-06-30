@@ -3,6 +3,7 @@
 8개의 기본 타입에 해당하는 데이터를 객체로 표현하기 위해, 포장해 주는 클래스
 
 > 기본타입 : byte, short, char, int, long, float, double, boolean
+> 
 > 참조 타입 : class, interface ..
 
 java.lang package> object class > number class > Wrapper class
