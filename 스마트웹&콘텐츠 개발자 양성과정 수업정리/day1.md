@@ -11,7 +11,4 @@ https://cafe.naver.com/harijava
 사용자가 작성한 프로그램을 기계가 인식할 수 있는 기계어로 번역해 주는
 소프트웨어
 
-4. JDK 11 version : jdk만 설치 
-www.oracle.com 
-https://www.oracle.com/java/technologies/downloads/#java11-windows
-java 다운 위치 : C:\Program Files\Java
+4. JDK 11 version
