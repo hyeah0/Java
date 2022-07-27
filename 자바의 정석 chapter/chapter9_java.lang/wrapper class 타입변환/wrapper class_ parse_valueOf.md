@@ -8,8 +8,8 @@
 
 java.lang package> object class > number class > Wrapper class
 
-int -> integer : 오토박싱
-int <- integer : 언박싱
+- int -> integer : 오토박싱
+- int <- integer : 언박싱
 
                 Integer num = new Integer(17); // Boxing
                 int n = num.intValue(); // UnBoxing
